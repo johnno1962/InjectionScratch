@@ -23,8 +23,8 @@ let package = Package(
             dependencies: ["InjectionLoader"]),
         .binaryTarget(
             name: "InjectionLoader",
-            url: "https://raw.githubusercontent.com/johnno1962/InjectionScratch/main/InjectionLoader-1.0.0.zip",
-            checksum: "f21a32ff846ebd5839a095c3ba1b5fc4b969cccd47161c1184bb3f4c938f5286"
+            url: "https://raw.githubusercontent.com/johnno1962/InjectionScratch/main/InjectionLoader-1.0.1.zip",
+            checksum: "d98a8a633f2eb037ef5b29b20db0966e781df31d9c977ab7ce4c32849ea053ce"
         ),
     ]
 )
