@@ -13,6 +13,11 @@
 .global _injected_code
 _injected_code:
     #if TARGET_OS_IPHONE && !TARGET_IPHONE_SIMULATOR
+    // This is where recompiled code is loaded into memory.
+    // Unfortunately, LLDB does not support giving a better
+    // idea of where your injected code has failed. To get
+    // a stacktrace, use an `@_exported import HotReloading`
+    // in your source file and type `p HotReloading.stack()`.
     .rept 400*16384
     nop
     nop
