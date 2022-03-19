@@ -1,5 +1,8 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
+//
+//  $Id: //depot/InjectionScratch/Package.swift#2 $
+//
 
 import PackageDescription
 
@@ -23,8 +26,8 @@ let package = Package(
             dependencies: ["InjectionLoader"]),
         .binaryTarget(
             name: "InjectionLoader",
-            url: "https://raw.githubusercontent.com/johnno1962/InjectionScratch/main/InjectionLoader-1.0.1.zip",
-            checksum: "d98a8a633f2eb037ef5b29b20db0966e781df31d9c977ab7ce4c32849ea053ce"
+            url: "https://raw.githubusercontent.com/johnno1962/InjectionScratch/main/InjectionLoader-1.0.2.zip",
+            checksum: "bceca6d99342447b5945f61247c9f33962ab6d127c401045a1a2f3358e5fd5c2"
         ),
     ]
 )
