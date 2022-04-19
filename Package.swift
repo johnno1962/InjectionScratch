@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-//  $Id: //depot/InjectionScratch/Package.swift#2 $
+//  $Id: //depot/InjectionScratch/Package.swift#4 $
 //
 
 import PackageDescription
