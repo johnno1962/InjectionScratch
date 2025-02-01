@@ -151,7 +151,7 @@ void * _Nullable loadPseudoImage(void * _Nullable scratch, int32_t length,
     static Rebinder rebind_symbols_image;
     if (!rebind_symbols_image)
         if (NSString *swiftTrace = [[NSBundle mainBundle].privateFrameworksPath
-            stringByAppendingPathComponent:@"SwiftTrace.framework/SwiftTrace"])
+            stringByAppendingPathComponent:@"SwiftTraceD.framework/SwiftTraceD"])
             if (void *handle = dlopen(swiftTrace.UTF8String, RTLD_NOLOAD))
                 rebind_symbols_image = (Rebinder)dlsym(handle, "rebind_symbols_image");
 

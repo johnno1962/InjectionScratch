@@ -20,7 +20,7 @@ FOUNDATION_EXPORT const unsigned char InjectionLoaderVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <InjectionScratch/PublicHeader.h>
 
 @protocol InjectionReader <NSObject>
-- (BOOL)readBytes:(void * _Nonnull)buffer length:(size_t)length cmd:(SEL _Nonnull)cmd;
+- (BOOL)readBytes:(void * /*_Nonnull*/)buffer length:(size_t)length cmd:(SEL /*_Nonnull*/)cmd;
 @end
 
 #ifdef __cplusplus
